@@ -22,17 +22,6 @@ The hostname is db and the port is 5432, the answer is db:5432
 ## Question 3
 > Prepare postgres
 
-```bash
-docker run -it \
--e POSTGRES_USER="root" \
--e POSTGRES_PASSWORD="root" \
--e POSTGRES_DB="homework_m1" \
--v "F:\Data Courses\Data Engineering Zoomcamp\Module 1\Homework\Question 3 Trip Segmentation Count\mount_folder":/var/lib/postgresql/data \
-# Create a new empty folder on Windows to mount 
--p 5434:5432 \
-postgres:13
-```
-
 ``` yaml
 services: 
     pgdatabase:
