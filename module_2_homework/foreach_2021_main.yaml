@@ -1,0 +1,34 @@
+# main code
+id: module2_hw_foreach_2021
+namespace: zoomcamp_hw
+labels:
+  year: 2021
+description: |
+  ## This main flow will loop through each month and call the subflow that extracts and loads
+
+inputs:
+# must initiate inputs in both the subflow and main code
+  - id: taxi
+    type: STRING
+    displayName: Select taxi type
+    defaults: "yellow"
+
+  - id: year
+    type: STRING
+    displayName: Select year
+    defaults: "2021"
+
+
+tasks:
+  - id: loop
+    type: io.kestra.plugin.core.flow.ForEach
+    values: [ "01", "02", "03", "04", "05", "06", "07" ]
+    tasks:
+      - id: get_subflow # call the subflow as calling a function
+        type: io.kestra.plugin.core.flow.Subflow
+        flowId: module2_hw_foreach_2021_subflow
+        namespace: zoomcamp_hw
+        inputs: # inject the inputs into the subflow
+          taxi: "{{inputs.taxi}}"
+          year: "{{inputs.year}}"
+          month: "{{taskrun.value}}"
