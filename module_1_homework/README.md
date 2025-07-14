@@ -19,7 +19,7 @@
     
 The hostname is db and the port is 5432, the answer is db:5432
 
-## Question 3
+## Question 3 - sums up
 > Prepare postgres
 
 ``` yaml
