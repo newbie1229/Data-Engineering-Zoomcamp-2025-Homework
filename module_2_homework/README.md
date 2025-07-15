@@ -11,25 +11,25 @@ Load 2021 data using ```ForEach```:
 
 ## Question 1
 ![](q1.png)
--> The answer is 134.5 Mib
+> The file size is 134.5 Mib
 
 ## Question 2
 ![](q2.png)
--> The answer is ```green_tripdata_2020-04.csv```
+> The file name is rendered as ```green_tripdata_2020-04.csv```
 
 ## Question 3
 ![](q3.png)
--> The answer is ```24,648,499```
+>  ```24,648,499``` records
 
 ## Question 4
 ![](q4.png)
--> The answer is ```24,648,499```
+-> ```24,648,499``` records
 
 ## Question 5
 ![](q5.png)
--> The answer is 1,925,152
+-> ```1,925,152``` records
 
 ## Question 6
-The answer is
+> The answer is
 
 • Add a ```timezone``` property set to ```America/New_York``` in the ```Schedule``` trigger configuration
