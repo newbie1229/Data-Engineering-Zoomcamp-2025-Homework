@@ -13,11 +13,11 @@
     import pip
     pip.__version__
 ```
--> The answer is 24.3.1
+> The version is 24.3.1
 
 ## Question 2
     
-The hostname is db and the port is 5432, the answer is db:5432
+> The hostname is db and the port is 5432, so the answer is db:5432
 
 ## Question 3 - sums up
 > Prepare postgres
@@ -135,7 +135,7 @@ ORDER BY 2 DESC
 LIMIT 1
 -- "2019-10-31"
 ```
-The answer is 2019-10-31
+> The pick up day with the longest trip distance was 2019-10-31
 
 ## Question 5
 ```sql
@@ -161,10 +161,10 @@ ORDER BY g.tip_amount DESC
 LIMIT 1
 -- "JFK Airport"
 ```
-The answer is JFK Airport
+The the drop off zone that with the largest tip was JFK Airport
 
 ## Question 7
-The answer is
+> The answer is
 ```bash 
 terraform init
 terraform apply -auto-approve
