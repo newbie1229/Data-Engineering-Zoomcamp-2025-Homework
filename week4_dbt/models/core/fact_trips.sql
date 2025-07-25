@@ -57,3 +57,5 @@ on trips_unioned.pickup_locationid = pickup_zone.locationid
 inner join dim_zones as dropoff_zone
 on trips_unioned.dropoff_locationid = dropoff_zone.locationid
 -- inner join 2 times to avoid missing information
+
+-- CI
