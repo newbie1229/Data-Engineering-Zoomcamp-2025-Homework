@@ -7,3 +7,5 @@
 ## 🔹[Workshop 1 Homework](./workshop_1_homework/README.md) 
 
 ## 🔹[Module 3 Homework](./module_3_homework/README.md) 
+
+## 🔹[Module 4 Homework](./module_4_homework/README.md) 
